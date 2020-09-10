@@ -1,0 +1,121 @@
+----item----
+version: 1
+id: {EEFC1CAA-006A-4F20-A233-223CA30C335F}
+database: master
+path: /sitecore/Forms/Manage IoT Objects/Page/Section/Section2/NewTemperature
+parent: {84B9A58E-40AA-4095-A1B1-CABA6DD4D375}
+name: NewTemperature
+master: {00000000-0000-0000-0000-000000000000}
+template: {0908030B-4564-42EA-A6FA-C7A5A2D921A8}
+templatekey: Input
+
+----field----
+field: {467C22B4-B1A2-4620-B8BB-74C2D8B369FC}
+name: Label Css Class
+key: label css class
+content-length: 22
+
+col-md-4 control-label
+----field----
+field: {7ABAA3F6-6EC0-4B65-A463-7919BFAE55AA}
+name: Css Class
+key: css class
+content-length: 30
+
+col-md-4 form-control input-md
+----field----
+field: {9F7DA002-7B86-436B-8DDA-7EFE5837B88E}
+name: Min Length
+key: min length
+content-length: 1
+
+0
+----field----
+field: {84ECE662-5034-40CB-9C60-744DB64BB294}
+name: Field Key
+key: field key
+content-length: 32
+
+B2C4AC681602490D889395749991C7B4
+----field----
+field: {71C6DE8E-4718-4977-B83E-B49552EE14B0}
+name: Conditions
+key: conditions
+content-length: 22
+
+{"fieldConditions":[]}
+----field----
+field: {5D09F88A-0E2A-4F87-8151-AF4A2AA26EC3}
+name: Value Provider
+key: value provider
+content-length: 38
+
+{9FFEF18B-D45E-4ED2-A019-95557C7E24E5}
+----field----
+field: {F6696439-2DAC-4183-8F3D-1979188D8336}
+name: Value Provider Parameters
+key: value provider parameters
+content-length: 50
+
+SitecoreIoTHub.AirConditioned.GetState,temperature
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 1
+
+0
+----version----
+language: en
+version: 1
+revision: e52bb861-32fa-4734-9b6a-30bda24bc928
+
+----field----
+field: {71FFD7B2-8B09-4F7B-8A66-1E4CEF653E8D}
+name: Title
+key: title
+content-length: 12
+
+Temperature:
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200416T225607Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e52bb861-32fa-4734-9b6a-30bda24bc928
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200721T221126Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
