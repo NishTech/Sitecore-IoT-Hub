@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26730.12
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{17DD5718-6E13-4F2C-9738-B410396D4552}"
 EndProject
@@ -69,7 +69,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoTHub.Feature.Demo", "src\
 EndProject
 Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "IoTHub.Feature.Demo.Master", "src\Feature\Demo\tds\IoTHub.Feature.Demo.Master\IoTHub.Feature.Demo.Master.scproj", "{589E5440-6BD6-4C37-AB56-79A32F5C749B}"
 EndProject
-Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "IoTHub.Project.IoTHub.Content", "src\Project\IoTHub\tds\IoTHub.Project.IoTHub.Content\IoTHub.Project.IoTHub.Content.scproj", "{B63836CC-6035-49F5-A89D-0196B6230703}"
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "IoTHub.Project.IoTHub.Demo", "src\Project\IoTHub\tds\IoTHub.Project.IoTHub.Content\IoTHub.Project.IoTHub.Demo.scproj", "{B63836CC-6035-49F5-A89D-0196B6230703}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -14,7 +14,7 @@
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <CompactSitecoreItemsInProjectFile>True</CompactSitecoreItemsInProjectFile>
     <AssemblyName>IoTHub.Project.IoTHub.Content</AssemblyName>
-    <Name>IoTHub.Project.IoTHub.Content</Name>
+    <Name>IoTHub.Project.IoTHub.Demo</Name>
     <RootNamespace>IoTHub.Project.IoTHub.Content</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
