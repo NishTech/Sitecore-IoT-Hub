@@ -138,10 +138,10 @@
     <Content Include="Models\Templates.scx.xslt">
       <DependentUpon>Templates.scx</DependentUpon>
     </Content>
-    <Content Include="Models\Templates.scx">
+    <None Include="Models\Templates.scx">
       <Generator>SitecoreCodeGenerator</Generator>
       <LastGenOutput>Templates.Designer.cs</LastGenOutput>
-    </Content>
+    </None>
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="web.config" />
     <None Include="web.Debug.config">
