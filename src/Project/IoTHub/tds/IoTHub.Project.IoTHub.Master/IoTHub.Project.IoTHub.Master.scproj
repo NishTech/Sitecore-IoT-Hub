@@ -45,9 +45,6 @@
     </AssemblyAttributes>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\Feature\Demo\tds\IoTHub.Feature.Demo.Master\IoTHub.Feature.Demo.Master.scproj">
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
     <ProjectReference Include="..\..\..\..\Feature\Forms\tds\IoTHub.Feature.Forms.Core\IoTHub.Feature.Forms.Core.scproj">
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
@@ -66,9 +63,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <BundledProject Include="..\..\..\..\Feature\Demo\tds\IoTHub.Feature.Demo.Master\IoTHub.Feature.Demo.Master.scproj">
-      <ProjectId>{589e5440-6bd6-4c37-ab56-79a32f5c749b}</ProjectId>
-    </BundledProject>
     <BundledProject Include="..\..\..\..\Feature\Forms\tds\IoTHub.Feature.Forms.Core\IoTHub.Feature.Forms.Core.scproj">
       <ProjectId>{929a3928-2355-466b-a5c5-2b9a1e4924a4}</ProjectId>
     </BundledProject>
