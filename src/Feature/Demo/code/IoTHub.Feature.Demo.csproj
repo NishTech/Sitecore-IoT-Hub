@@ -181,10 +181,10 @@
     <Content Include="assets\smartdisplay\vendor\superfish\superfish.min.js" />
     <Content Include="assets\smartdisplay\vendor\wow\wow.js" />
     <Content Include="assets\smartdisplay\vendor\wow\wow.min.js" />
-    <Content Include="Models\Templates.scx">
+    <None Include="Models\Templates.scx">
       <Generator>SitecoreCodeGenerator</Generator>
       <LastGenOutput>Templates.Designer.cs</LastGenOutput>
-    </Content>
+    </None>
     <Content Include="assets\smartdisplay\vendor\bootstrap\css\bootstrap-grid.css.map" />
     <Content Include="assets\smartdisplay\vendor\bootstrap\css\bootstrap-grid.min.css.map" />
     <Content Include="assets\smartdisplay\vendor\bootstrap\css\bootstrap-reboot.css.map" />
@@ -205,9 +205,9 @@
     <Content Include="assets\smartdisplay\vendor\owl.carousel\LICENSE" />
     <Content Include="assets\smartdisplay\vendor\owl.carousel\README.md" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
-    <Content Include="Models\Templates.scx.xslt">
+    <None Include="Models\Templates.scx.xslt">
       <DependentUpon>Templates.scx</DependentUpon>
-    </Content>
+    </None>
     <Content Include="sitecore modules\Web\ExperienceForms\scripts\IoTHub\iot-hub.js" />
     <Content Include="Views\SmartDisplay\Index.cshtml" />
     <Content Include="Views\IoTHub\Layouts\IoTHubLayout.cshtml" />

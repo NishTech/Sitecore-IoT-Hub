@@ -135,9 +135,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\Foundation\IoTHub.Azure.Foundation.config" />
-    <Content Include="Models\Templates.scx.xslt">
+    <None Include="Models\Templates.scx.xslt">
       <DependentUpon>Templates.scx</DependentUpon>
-    </Content>
+    </None>
     <None Include="Models\Templates.scx">
       <Generator>SitecoreCodeGenerator</Generator>
       <LastGenOutput>Templates.Designer.cs</LastGenOutput>
