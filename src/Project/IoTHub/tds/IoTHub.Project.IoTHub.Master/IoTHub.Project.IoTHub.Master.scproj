@@ -25,6 +25,16 @@
     <DebugSymbols>false</DebugSymbols>
     <OutputPath>.\bin\Release\</OutputPath>
     <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+    <PackageName>Sitecore.IoTHub</PackageName>
+    <PackageAuthor>Rodrigo Peplau</PackageAuthor>
+    <PackagePublisher>Nish Tech, Inc.</PackagePublisher>
+    <PackageVersion>1.0</PackageVersion>
+    <PackageReadme />
+    <SitecoreAssemblyPath />
+    <GeneratePackage>True</GeneratePackage>
+    <SeperateFilesAndItems>True</SeperateFilesAndItems>
+    <PackageExcludeCode>False</PackageExcludeCode>
+    <AddDateTimeToPackageName>False</AddDateTimeToPackageName>
   </PropertyGroup>
   <ItemGroup>
     <AssemblyAttributes Include="AssemblyFileVersion">
@@ -35,10 +45,42 @@
     </AssemblyAttributes>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Feature\Demo\tds\IoTHub.Feature.Demo.Master\IoTHub.Feature.Demo.Master.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Feature\Forms\tds\IoTHub.Feature.Forms.Core\IoTHub.Feature.Forms.Core.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Feature\Forms\tds\IoTHub.Feature.Forms.Master\IoTHub.Feature.Forms.Master.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Feature\SitecoreRules\tds\IoTHub.Feature.SitecoreRules.Master\IoTHub.Feature.SitecoreRules.Master.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Foundation\Azure\tds\IoTHub.Foundation.Azure.Master\IoTHub.Foundation.Azure.Master.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
     <ProjectReference Include="..\..\code\IoTHub.Project.IoTHub.csproj">
       <Project>{a4ec7c4b-3162-4905-a2da-1d8e44e17620}</Project>
       <Name>IoTHub.Project.IoTHub</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundledProject Include="..\..\..\..\Feature\Demo\tds\IoTHub.Feature.Demo.Master\IoTHub.Feature.Demo.Master.scproj">
+      <ProjectId>{589e5440-6bd6-4c37-ab56-79a32f5c749b}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\..\..\..\Feature\Forms\tds\IoTHub.Feature.Forms.Core\IoTHub.Feature.Forms.Core.scproj">
+      <ProjectId>{929a3928-2355-466b-a5c5-2b9a1e4924a4}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\..\..\..\Feature\Forms\tds\IoTHub.Feature.Forms.Master\IoTHub.Feature.Forms.Master.scproj">
+      <ProjectId>{524917ae-f40c-44e3-ac26-5f6f6cc581e1}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\..\..\..\Feature\SitecoreRules\tds\IoTHub.Feature.SitecoreRules.Master\IoTHub.Feature.SitecoreRules.Master.scproj">
+      <ProjectId>{71df3ccc-4b55-4a83-8849-5cd9405e34fb}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\..\..\..\Foundation\Azure\tds\IoTHub.Foundation.Azure.Master\IoTHub.Foundation.Azure.Master.scproj">
+      <ProjectId>{e43932e9-7643-44aa-a784-2ec3560663b3}</ProjectId>
+    </BundledProject>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets" Condition="Exists('$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets')" />
 </Project>
