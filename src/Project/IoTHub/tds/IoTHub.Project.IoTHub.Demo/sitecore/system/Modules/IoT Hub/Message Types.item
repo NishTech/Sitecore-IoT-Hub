@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {865F6430-CA12-4148-8D2F-A815FA71422E}
+database: master
+path: /sitecore/system/Modules/IoT Hub/Message Types
+parent: {D0A80066-18F2-4CE9-B182-2C541231B3C4}
+name: Message Types
+master: {00000000-0000-0000-0000-000000000000}
+template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+templatekey: Folder
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+300
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 38
+
+{B8521A51-A0CF-40AC-BD76-4C4D1E900B1C}
+----version----
+language: en
+version: 1
+revision: b2f84f99-90ef-46bc-9ea6-525c11dd19f2
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200212T131626Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b2f84f99-90ef-46bc-9ea6-525c11dd19f2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200708T232305Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

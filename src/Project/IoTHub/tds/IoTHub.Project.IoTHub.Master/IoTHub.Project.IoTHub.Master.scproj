@@ -32,7 +32,7 @@
     <PackageReadme />
     <SitecoreAssemblyPath />
     <GeneratePackage>True</GeneratePackage>
-    <SeperateFilesAndItems>True</SeperateFilesAndItems>
+    <SeperateFilesAndItems>False</SeperateFilesAndItems>
     <PackageExcludeCode>False</PackageExcludeCode>
     <AddDateTimeToPackageName>False</AddDateTimeToPackageName>
   </PropertyGroup>

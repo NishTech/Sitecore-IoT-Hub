@@ -1,0 +1,93 @@
+----item----
+version: 1
+id: {ACE9F169-7BC9-475F-8C6A-F645A7333BCC}
+database: master
+path: /sitecore/system/Modules/IoT Hub/Hubs/SitecoreIoTHub
+parent: {62BA65C8-7E6C-4BD5-AA1F-E6EC9E85A26A}
+name: SitecoreIoTHub
+master: {00000000-0000-0000-0000-000000000000}
+template: {3D047E06-051D-4824-AC69-4FE9B3F63E92}
+templatekey: IoT Hub
+
+----field----
+field: {759A5CD3-7973-40EB-A384-B24A02B4CFE3}
+name: Hub Name
+key: hub name
+content-length: 14
+
+SitecoreIoTHub
+----field----
+field: {744AE3A8-6CE5-44B1-B66C-D5EF99500D85}
+name: Connection String
+key: connection string
+content-length: 130
+
+HostName=SitecoreIoTHub.azure-devices.net;SharedAccessKeyName=service;SharedAccessKey=ZbcB3NgUz+ytW+HuShXNFD8rAscVv6SLO2jDs4hu7iU=
+----field----
+field: {847910F5-F701-4B8A-9C30-274EFF439A83}
+name: Event Hubs-compatible endpoint
+key: event hubs-compatible endpoint
+content-length: 57
+
+sb://ihsuprodblres018dednamespace.servicebus.windows.net/
+----field----
+field: {DC3A4828-D37C-4898-B44A-F8D2A4DD71BB}
+name: Event Hubs-compatible path
+key: event hubs-compatible path
+content-length: 41
+
+iothub-ehub-sitecoreio-3069566-872241736b
+----field----
+field: {D7804AC4-3E5F-4975-BE4B-80C439AB04B2}
+name: Service Primary Key
+key: service primary key
+content-length: 44
+
+ZbcB3NgUz+ytW+HuShXNFD8rAscVv6SLO2jDs4hu7iU=
+----version----
+language: en
+version: 1
+revision: 29930aa7-6b70-49ce-bd50-91bf43d7c86d
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200312T115440Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+29930aa7-6b70-49ce-bd50-91bf43d7c86d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200312T181530Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
