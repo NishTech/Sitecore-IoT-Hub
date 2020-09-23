@@ -6,10 +6,10 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("IoTHub.Foundation.Azure")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("by Rodrigo Peplau")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("IoTHub.Foundation.Azure")]
+[assembly: AssemblyCompany("Nish Tech, Inc.")]
+[assembly: AssemblyProduct("Sitecore IoT Hub")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

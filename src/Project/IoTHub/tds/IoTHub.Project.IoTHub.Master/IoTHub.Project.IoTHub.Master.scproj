@@ -25,7 +25,7 @@
     <DebugSymbols>false</DebugSymbols>
     <OutputPath>.\bin\Release\</OutputPath>
     <RecursiveDeployAction>Ignore</RecursiveDeployAction>
-    <PackageName>Sitecore.IoTHub</PackageName>
+    <PackageName>Sitecore.IoTHub.Module</PackageName>
     <PackageAuthor>Rodrigo Peplau</PackageAuthor>
     <PackagePublisher>Nish Tech, Inc.</PackagePublisher>
     <PackageVersion>1.0</PackageVersion>
