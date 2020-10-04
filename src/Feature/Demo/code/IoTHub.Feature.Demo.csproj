@@ -214,7 +214,7 @@
     <Content Include="Views\IoTHub\Layouts\IoTHubLayoutInner.cshtml" />
     <Content Include="Views\IoTHub\Layouts\SmartDisplay.cshtml" />
     <Content Include="Views\IoTHub\Layouts\SmartDisplayInner.cshtml" />
-    <Content Include="Views\Web.config" />
+    <None Include="Views\Web.config" />
     <None Include="web.config" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
