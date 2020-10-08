@@ -91,7 +91,7 @@ namespace IoTHub.Foundation.Azure.Pipelines
             {
                 Log.Warn($"Error calling method '{method.ID}' on device '{device.ID}' - Error: {e.Message}",
                     typeof(IoTDeviceMethod));
-                return new DynamicMessage();
+                return null;
             }
 
             // Resulting Payload

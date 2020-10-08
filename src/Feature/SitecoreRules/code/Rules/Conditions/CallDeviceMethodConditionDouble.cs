@@ -59,6 +59,8 @@ namespace IoTHub.Feature.SitecoreRules.Rules.Conditions
                     break;
             }
 
+            var comparisonSign = comparisonResult ? "=" : "!=";
+            Log.Debug($"CallDeviceMethodConditionDouble: '{parsedValue}'{comparisonSign}'{Value}'");
             return comparisonResult;
         }
 

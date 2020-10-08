@@ -7,6 +7,7 @@ using Sitecore.Mvc.Controllers;
 using Sitecore.Mvc.Presentation;
 using Sitecore.Data.Items;
 using System.Linq;
+using IoTHub.Foundation.Azure.Deserializers;
 
 namespace IoTHub.Feature.Demo.Controllers
 {
@@ -65,7 +66,9 @@ namespace IoTHub.Feature.Demo.Controllers
         private string GetSelectedObject()
         {
             dynamic response = _method.Invoke(_device);
-            string selectedObject = response.currentObject;
+            if (response==null)
+                return "Empty";
+            var selectedObject = response.currentObject;
             if (string.IsNullOrEmpty(selectedObject))
                 selectedObject = "Empty";
             return selectedObject;

@@ -34,6 +34,8 @@ namespace IoTHub.Feature.SitecoreRules.Rules.Conditions
 
             // Compare values
             var comparisonResult = Compare(parsedValue, Value);
+            var comparisonSign = comparisonResult ? "=" : "!=";
+            Log.Debug($"CallDeviceMethodConditionString: '{parsedValue}'{comparisonSign}'{Value}'");
             return comparisonResult;
         }
 
