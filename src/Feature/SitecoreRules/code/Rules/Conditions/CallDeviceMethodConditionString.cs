@@ -29,6 +29,8 @@ namespace IoTHub.Feature.SitecoreRules.Rules.Conditions
             
             // Call method and receive results
             var parsedResults = method.Invoke(device, Payload);
+            if (parsedResults == null)
+                return false;
             var dynamicValue = property.GetValue(parsedResults);
             var parsedValue = dynamicValue==null ? string.Empty : dynamicValue.ToString();
 

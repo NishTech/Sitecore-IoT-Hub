@@ -55,6 +55,13 @@ namespace IoTHub.Feature.Forms.SubmitActions
                 }
 
                 var response = method.Invoke(device, payload);
+                if (response == null)
+                {
+                    Log.Error(
+                        $"[ExecuteIoTMethod] Form Submit Action returned NULL value - Error calling IoTMethod '{data.MethodId}' at the IoTDevice '{data.DeviceId}'",
+                        this);
+                    return false;
+                }
                 Log.Info(
                     $"[ExecuteIoTMethod] Called IoTMethod '{data.MethodId}' at the IoTDevice '{data.DeviceId}' with payload '{payload}' - Return: '{response.RawMessage}'",
                     this);
