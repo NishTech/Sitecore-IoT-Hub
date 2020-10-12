@@ -173,7 +173,7 @@ namespace IoTHub.Foundation.Azure.Repositories
         }
         #endregion
 
-        #region IIoTMessageTypeRepository
+        #region IIoTMethodRepository
 
         public IoTDeviceMethod CastToMethod(Item methodItem)
         {
