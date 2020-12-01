@@ -8,27 +8,6 @@ namespace IoTHub.Foundation.Azure.Repositories
 {
     public class IoTHubRepository : IIoTHubRepository
     {
-        private readonly IIoTDeviceRepository _deviceRepository;
-        private readonly IIoTMessageDeserializerRepository _deserializerRepository;
-        private readonly IIoTMessagePropertyRepository _messagePropertyRepository;
-        private readonly IIoTMessageTypeRepository _messageTypeRepository;
-        private readonly IIoTMethodRepository _methodRepository;
-        private readonly IIoTDeviceTypeRepository _deviceTypeRepository;
-
-        public IoTHubRepository(IIoTDeviceRepository deviceRepository,
-            IIoTMessageDeserializerRepository deserializerRepository,
-            IIoTMessagePropertyRepository messagePropertyRepository,
-            IIoTMessageTypeRepository messageTypeRepository,
-            IIoTMethodRepository methodRepository, IIoTDeviceTypeRepository deviceTypeRepository)
-        {
-            _deviceRepository = deviceRepository;
-            _deserializerRepository = deserializerRepository;
-            _messagePropertyRepository = messagePropertyRepository;
-            _messageTypeRepository = messageTypeRepository;
-            _methodRepository = methodRepository;
-            _deviceTypeRepository = deviceTypeRepository;
-        }
-
         #region IIoTHubRepository
 
         public Models.Templates.IoTHub CastToHub(Item hubItem)

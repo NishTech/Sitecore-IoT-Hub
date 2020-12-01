@@ -155,6 +155,8 @@
     <Compile Include="Deserializers\DynamicMessage.cs" />
     <Compile Include="Deserializers\IDeserializer.cs" />
     <Compile Include="Deserializers\JsonDeserializer.cs" />
+    <Compile Include="Managers\IIoTDeviceManager.cs" />
+    <Compile Include="Managers\IIoTHubManager.cs" />
     <Compile Include="Models\Templates.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

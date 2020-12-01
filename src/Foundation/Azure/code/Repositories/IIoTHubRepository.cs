@@ -5,8 +5,7 @@ using Sitecore.Data.Items;
 
 namespace IoTHub.Foundation.Azure.Repositories
 {
-    public interface IIoTHubRepository : IIoTDeviceRepository, IIoTMessageDeserializerRepository,
-        IIoTMessagePropertyRepository, IIoTMessageTypeRepository, IIoTMethodRepository, IIoTDeviceTypeRepository
+    public interface IIoTHubRepository
     {
         /// <summary>
         /// Cast Item to IoTHub
@@ -46,6 +45,7 @@ namespace IoTHub.Foundation.Azure.Repositories
         /// <returns></returns>
         List<Models.Templates.IoTHub> GetHubs(Database database = null);
 
+        /*
         /// <summary>
         /// Get IoTDevice with a certain Name
         /// </summary>
@@ -89,5 +89,6 @@ namespace IoTHub.Foundation.Azure.Repositories
         /// <param name="database"></param>
         /// <returns></returns>
         IoTDevice GetDeviceAndMethodByName(string deviceMethodName, out IoTDeviceMethod method, Database database = null);
+        */
     }
 }
